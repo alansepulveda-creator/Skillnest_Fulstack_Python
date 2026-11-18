@@ -1,11 +1,3 @@
-# 🔷 Concepto	🟨 JavaScript	🐍 Python
-# int	var num = 156;	num = 156
-# float	var pi = 3.1416;	pi = 3.1416
-# Imprimir	console.log(num);	print(num)
-# Verificación de tipo	console.log(typeof(pi));	print(type(pi))
-# Conversión	N/A. Todos los números son flotantes en JavaScript	num_a_decimal = float(num)
-# Número aleatorio entre 5 – 10	var rand_num = Math.floor(Math.random() * 6) + 5;	import random
-# num_aleatorio = random.randint(5,10)
 # 🔢 Números 
 # Existen 3 tipos de números básicos en Python:
 
@@ -15,9 +7,9 @@
 # 🧪 Type
 # Como lo vimos en el capítulo anterior, si no estás seguro del tipo de un número podemos usar type para verificarlo.
 
-print(type(1.1)) #Imprime: <class 'float'>
-print(type(615)) #Imprime: <class 'int'>
-print(type(2j)) #Imprime: <class 'complex'>
+# print(type(1.1)) #Imprime: <class 'float'>
+# print(type(615)) #Imprime: <class 'int'>
+# print(type(2j)) #Imprime: <class 'complex'>
 # 🔄 Conversión
 # Todos los objetos en Python tienen métodos que podemos utilizar para convertir de un tipo de número a otro.
 
@@ -33,3 +25,14 @@ print(type(2j)) #Imprime: <class 'complex'>
 # import random
 # num_aleatorio = random.randint(5, 10) #Genera un número aleatorio entre 5 y 10
 # print(num_aleatorio) #Imprime el número aleatorio generado
+
+# Tarea: Crear variable como input, ingresar dos numeros, transformarlos a decimal, sumarlos
+#promediarlos y mostrar el resultado en pantalla
+num1 = input("ingresa un numero: ")
+num2 = input("ingresa otro numero: ")
+numero1 = float(num1)
+numero2 = float(num2)
+suma = numero1 + numero2
+promedio = suma / 2
+print("La suma es:", suma)
+print("El promedio es:", promedio)
