@@ -1,32 +1,32 @@
-# lista_vacia = []
-# lista_compras = ['tomate', 'pan', 'queso', 'jamón']
+lista_vacia = []
+lista_compras = ['tomate', 'pan', 'queso', 'jamón']
 # A diferencia de otros lenguajes, las listas en Python pueden tener distintos tipos de datos, cadenas, números, inclusive otras listas o tuplas.
 
-# lista_especial = [1, 2, ['a', 'b', 'c'], True]
-# Otra característica interesante de las listas en Python es que puedes combinarlas y duplicar valores de una manera muy sencilla utilizando los operadores + y *. Si “sumas” dos listas, se creará una nueva lista que contiene todos los valores de ambas listas combinadas. De igual manera, si “multiplicas” una lista por un número entero, copiará todos los valores esa cantidad de veces y creará una nueva lista con todos los valores copiados. Veamos el siguiente ejemplo:
+lista_especial = [1, 2, ['a', 'b', 'c'], True]
+# Otra característica interesante de las listas en Python es que puedes combinarlas y duplicar valores de una manera muy sencilla utilizando los operadores + y *. Si “sumas” dos listas, se creará una nueva lista que contiene todos los valores de ambas listas combinadas. De igual manera, si “multiplicas” una lista por un número entero, copiará todos los valores esa cantidad de vece s y creará una nueva lista con todos los valores copiados. Veamos el siguiente ejemplo:
 
-# verso1 = ['dale', 'a', 'tu', 'cuerpo']
-# verso2 = ['alegria', 'macarena']
-# estrofa = verso1 + verso2
-# print(estrofa)
-# cancion = 3 * estrofa
-# print(cancion)
+verso1 = ['dale', 'a', 'tu', 'cuerpo']
+verso2 = ['alegria', 'macarena']
+estrofa = verso1 + verso2
+print(estrofa)
+cancion = 3 * estrofa
+print(cancion)
 # Si ejecutamos el código anterior, tendríamos algo como esto:
 
 # 🗂️ Acceder a los valores
 # Regresando a la analogía de la cajonera, cada cajón está numerado comenzando por el 0. Nuestro primer cajón (índice 0) tiene “pantalones”, el segundo cajón (índice 1) tiene “camisas”, y así por cada cajón. Cada cajón está representado por un número, al cual lo conocemos como índice; este sirve como dirección/posición única que apunta a cada ítem dentro del mueble. Para acceder a ellos lo haremos de la siguiente manera:
 
-# cajonera = ["pantalones", "camisetas", "calcetines"]
-# print(cajonera[0]) #Accedemos al cajón con índice 0. Imprime: "pantalones"
-# print(cajonera[1]) #Accedemos al cajón con índice 1. Imprime: "camisetas"
-# print(cajonera[2]) #Accedemos al cajón con índice 2. Imprime: "calcetines"
-# cajonera[1] = "sueters" #Cambiamos el valor del cajón con índice 1
-# print(cajonera) #Imprime: ['pantalones', 'sueters', 'calcetines']
+cajonera = ["pantalones", "camisetas", "calcetines"]
+print(cajonera[0]) #Accedemos al cajón con índice 0. Imprime: "pantalones"
+print(cajonera[1]) #Accedemos al cajón con índice 1. Imprime: "camisetas"
+print(cajonera[2]) #Accedemos al cajón con índice 2. Imprime: "calcetines"
+cajonera[1] = "sueters" #Cambiamos el valor del cajón con índice 1
+print(cajonera) #Imprime: ['pantalones', 'sueters', 'calcetines']
 # 🧰 Manipular listas
 # Como mencionamos anteriormente, las listas son dinámicas, por lo que a través de la función .append() podemos agregar elementos. Esta función agrega un nuevo elemento al final de la lista dada.
 
-# cajonera.append("vestidos") #Agregamos "vestidos" al final de la lista
-# print(cajonera) #Imprime: ['pantalones', 'sueters', 'calcetines', 'vestidos']
+cajonera.append("vestidos") #Agregamos "vestidos" al final de la lista
+print(cajonera) #Imprime: ['pantalones', 'sueters', 'calcetines', 'vestidos']
 # ✂️ Slicing
 # Algo de gran utilidad en Python es algo llamado Slicing o “Troceado”, que nos permite regresar una copia de parte de nuestra lista en base a índices específicos. La síntaxis utilizada es: [x:y], donde x es el índice inicial y y el índice final.
 
@@ -38,8 +38,8 @@ print(lista_grande[3:6]) #Imprime:[8, 10, 12]
 # Existen múltiples funciones integradas que pueden utilizarse para secuencias todas las secuencias, incluídas tuplas y cadenas. Pero, ¿a qué nos referimos con secuencia? Piensa en una secuencia como cualquier cosa sobre la que podamos recorrer. A continuación te presentamos una función que utilizarás constantemente:
 
 # len(secuencia): Regresa la cantidad de elementos en la secuencia.
-# vocales = ['a', 'e', 'i', 'o', 'u']
-# print(len(vocales)) #Imprime: 5
+vocales = ['a', 'e', 'i', 'o', 'u']
+print(len(vocales)) #Imprime: 5
 
 
 # 📏 Ejemplos de funciones para secuencias
